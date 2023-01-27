@@ -1,0 +1,137 @@
+@import "https://fonts.googleapis.com/css2?family=Lobster&display=swap";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lobster", cursive;
+}
+
+header {
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #3E2E40 0%, orange 100%);
+}
+
+.logo {
+  color: orange;
+}
+
+.hero {
+  background-position: center;
+  background-image: url(../img/fondo.jpg);
+  height: 70vh;
+  background-size: cover;
+}
+
+#grilla-promo {
+  background-color: #3e2e40;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: "desayuno menus descuento";
+  padding: 20px;
+  grid-gap: 10px;
+}
+#grilla-promo .desayuno {
+  border: 5px solid orange;
+}
+#grilla-promo .menus {
+  border: 5px solid orange;
+}
+#grilla-promo .descuento {
+  border: 5px solid orange;
+}
+
+#menu, #contacto, #horarios, #sobre-nosotros {
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #3e2e40 0%, orange 100%);
+  margin: auto;
+}
+
+#grilla-menu {
+  color: orange;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "cafe comida" "bebidas pasteles";
+}
+#grilla-menu #cafe {
+  background-image: url(../img/fondo_menu.jpg);
+  border: 2px solid #fff;
+}
+#grilla-menu #comida {
+  background-image: url(../img/fondo_menu.jpg);
+  border: 2px solid #fff;
+}
+#grilla-menu #bebidas {
+  background-image: url(../img/fondo_menu.jpg);
+  border: 2px solid #fff;
+}
+#grilla-menu #pasteles {
+  background-image: url(../img/fondo_menu.jpg);
+  border: 2px solid #fff;
+}
+
+.tramsform {
+  margin: auto;
+}
+
+#grilla-menu > div > ul {
+  list-style-type: none;
+}
+
+#grilla-horarios {
+  text-align: center;
+  text-shadow: 7px 2px 2px orange;
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px;
+  grid-template-areas: "direccion horario" "direccion horario";
+}
+#grilla-horarios #direccion {
+  background-image: url(../img/bebidas.jpg);
+  background-position: center;
+}
+#grilla-horarios #horario {
+  background-image: url(../img/horarios.jpg);
+  background-position: center;
+}
+#grilla-horarios li {
+  list-style-type: none;
+}
+
+#nosotros {
+  background-color: #3e2e40;
+  color: orange;
+  border: 2px solid #fff;
+  text-align: center;
+}
+
+#contactos {
+  color: orange;
+  background-color: #3e2e40;
+  border: 2px solid #3e2e40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer {
+  color: #fff;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #3E2E40 0%, orange 100%);
+}
+footer P {
+  float: right;
+  font-size: 25px;
+}
+footer I {
+  font-size: 45px;
+  letter-spacing: 10px;
+  color: #fff;
+}
+
+/*# sourceMappingURL=estilo.css.map */
